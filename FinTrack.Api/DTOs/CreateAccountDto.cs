@@ -1,6 +1,6 @@
 ﻿namespace FinTrack.Api.DTOs
 {
-    public class CreateAcctnDto
+    public class CreateAccountDto
     {
         public string Name { get; set; } = string.Empty;
         public decimal InitialBalance { get; set; }
