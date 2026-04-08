@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36908.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinTrack.Api", "FinTrack.Api\FinTrack.Api.csproj", "{EB197E91-CEF1-4BDD-BA00-5DDBBAF13761}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB197E91-CEF1-4BDD-BA00-5DDBBAF13761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB197E91-CEF1-4BDD-BA00-5DDBBAF13761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB197E91-CEF1-4BDD-BA00-5DDBBAF13761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB197E91-CEF1-4BDD-BA00-5DDBBAF13761}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36CDB690-2F3E-40E4-AAAA-03F83A84D434}
+	EndGlobalSection
+EndGlobal
