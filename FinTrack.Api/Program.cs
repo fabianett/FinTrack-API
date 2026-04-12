@@ -1,4 +1,6 @@
 using FinTrack.Api.Data;
+using FinTrack.Api.Services;
+using FinTrack.Api.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,10 +9,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<FinTrackDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddScoped<IAccountService, AccountService>();
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 
 var app = builder.Build();
 
